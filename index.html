@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>whether app</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark h-100 d-flex justify-content-center align-items-center " >
+    <div class="main_whether container ">
+        <div class="card p-4 pt-5">
+            <div class="search_sec d-flex justify-content-center align-items-center my-2">
+                <input type="text" class="search_box  mx-3 p-2 px-3" placeholder="search">
+                <span class="search_btn mx-1 py-1 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" fill="currentColor" class="bi bi-search " viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>
+                </span>
+            </div>
+            <div class="details my-3 mx-4">
+                <h1 class="name"></h1>
+                <div class="d-flex justify-content-start align-items-center">
+                    <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon " />
+                    <div class="description mx-2">Cloudy</div>
+                  </div>
+                
+                <p class="temp "></p>
+                <p class="humidity"></p>
+                <p class="wind"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./whether.js"></script>
+</body>
+</html>

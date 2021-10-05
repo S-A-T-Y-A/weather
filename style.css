@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background: #f222;
+  
+  color: white;
+  overflow: hidden;
+}
+.main_whether {
+  height: 100vh !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card {
+  max-width: 500px;
+  width: 100%;
+  border-radius: 17px;
+  background-color: #000000d2;
+}
+input {
+  width: 16em;
+  border: none;
+  outline: none;
+  border-radius: 2em;
+  color: rgb(17, 17, 17);
+}
+
+.search_btn {
+  font-weight: 900;
+  color: white;
+  background-color: grey;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  text-align: center;
+  cursor: pointer;
+  
+}
+.search_btn:hover,.search_box:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+@media(max-width:420px){
+
+input{
+    width: 70%;
+}
+}
